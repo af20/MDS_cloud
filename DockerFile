@@ -1,9 +1,9 @@
 FROM python:3.9-buster
 
 #WORKDIR /home/app
-#COPY requirements.txt requirements.txt
+COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 CMD python start.py
 
 #sudo docker build -t mds_cloud .
-#sudo docker run -ti demm bash
+#sudo docker run -ti mds_cloud bash
