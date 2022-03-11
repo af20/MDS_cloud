@@ -6,3 +6,4 @@ RUN pip install -r requirements.txt
 CMD python start.py
 
 #sudo docker build -t mds_cloud .
+#sudo docker run -ti demm bash
